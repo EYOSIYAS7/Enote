@@ -1,0 +1,29 @@
+<!-- <% for(let orders of order) {%> -->
+
+<!-- ejs code -->
+
+<!-- <% if(orders.userID === userToken.id) {%> -->
+<!-- <p class="card-text">Name: <%= orders.name%></p> -->
+<!-- <p class="card-text">Phone no:<%= orders.phone%></p>
+
+                <p class="card-text">Product: <%= orders.product%></p>
+                <p class="card-text">Ordered at: <%= orders.createdAt%></p>
+
+                <a
+                  data-req="/delete/<%= orders.id%>"
+                  class="d-inline float-end fs-3 trash"
+                >
+                  <i class="fa-regular fa-trash-can"></i
+                ></a>
+
+                <a href="/update/<%= orders.id%>" class="card-link"
+                  >Update your order</a
+                >
+                <a href="/see/<%= orders.id%>" class="card-link"
+                  >See what you ordered</a
+                > -->
+<!-- <script>
+      const name = document.querySelector(".N").innerHTML;
+
+      document.getElementById("userID").value = name;
+    </script> -->
