@@ -26,6 +26,6 @@ app.use(bodyParser.json());
 
 app.use(route);
 
-app.listen(process.env.PORT || 3000, (req, res) => {
-  console.log(" listening on port 3000 ");
+app.listen(process.env.PORT || 4000, (req, res) => {
+  console.log(" listening on port 4000 ");
 });
